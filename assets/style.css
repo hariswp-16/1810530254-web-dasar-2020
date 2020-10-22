@@ -1,0 +1,24 @@
+
+body{
+	padding-left: 15px;
+	padding-right: 15px;
+	background-image: url('./jos.png');
+	background-repeat: no-repeat;
+
+}
+
+
+
+p {
+	width: 50%;
+	text-align: center;
+
+}
+
+h3{
+	margin-bottom: 25px;
+
+}
+ h3:hover{
+ 	font-size: 35px;
+ }
