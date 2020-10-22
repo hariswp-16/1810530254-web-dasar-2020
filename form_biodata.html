@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Biodata</title>
+</head>
+<style type="text/css">
+	body{
+		background-color: #ccffe6;
+	}
+	
+	h1{
+
+		text-decoration: underline;
+		text-shadow; 
+		
+	}
+</style>
+<body>
+<h1 align="center">
+	Form Biodata
+</h1>
+<br>
+<br>
+
+
+<table>
+	
+<tr>
+	<td>NIM</td>
+	<td>:</td> 
+	<td><input type="number" placeholder="Masukkan NIM" size="25" maxlength="25"></td>
+	
+</tr>
+
+<tr>	
+	<td>NAMA</td>
+	<td>:</td>
+	<td><input type="text" placeholder="Masukkan Nama Lengkap" size="25"	maxlength="25"></td>
+	
+</tr>
+
+<tr>
+	
+	<td>JENIS KELAMIN</td>
+	<td>:</td>  
+	<td><input type="radio" name="jk"> Laki-laki
+	<input type="radio" name="jk"> Perempuan</td>
+	
+</tr>
+
+<tr>
+
+	<td>JURUSAN</td>
+	<td>:</td>
+	<td><select name="1stjurusan">
+
+		<option value="" size="10">Pilihan ... </option>
+		<option value="S1 ILKOM" size="10">S1 ILKOM</option>
+		<option value="S1 DKV" size="10">S1 DKV</option>
+		<option value="D3 MI" size="10">D3 MI</option>
+		
+	</select></td>
+</tr>
+
+<tr>
+	
+	<td>HOBI</td>
+	<td>:</td> 
+	<td><input type="checkbox" name="Hobi"> Ngoding
+	<input type="checkbox" name="Hobi"> Musik
+	<input type="checkbox" name="Hobi"> Olahraga
+	<input type="checkbox" name="Hobi"> Travelling</td>
+	
+</tr>
+
+<tr>
+	<td>CATATAN</td>
+	<td>:</td>
+	<td><textarea name="txtCatatan" rows="5" cols="75"></textarea></td>
+	
+</tr>
+
+<tr>
+	
+	<td>FOTO</td>
+	<td>:</td>
+	<td><input type="file" name="FOTO" accept=".jpeg, .jpg, .png"></td>
+	
+</tr>
+
+<tr>
+	<td>EMAIL</td>
+	<td>:</td>
+	<td><input type="text" placeholder="Masukkan E-mail" name="txtemail" size="25" maxlength="25"></td>
+	
+</tr>
+
+<tr>
+	
+	<td>SANDI LOGIN</td>
+	<td>:</td>
+	<td><input type="password" placeholder="Masukkan Sandi" name="txtsandi" size="25" maxlength="25"></td>
+	
+</tr>
+
+<tr>
+	<td>ULANGI SANDI LOGIN</td>
+	<td>:</td>
+	<td><input type="password" placeholder="Ulangi Masukkan Sandi" name="txtsandi" size="25" maxlength="25"></td>
+	
+</tr>
+
+<br><br>
+
+<tr>
+	<td></td>
+	<td></td>
+	<td>
+		<button type="submit" name="btnsimpan" value="Simpan">Simpan</button>
+		<button type="reset" name="btnbatal" value="Batal">Batal</button>
+		<button type="button" onclick="alert('Dilarang Salah !!!')">Peringatan</button>
+	</td>
+</tr>
+
+</table>
+</body>
+</html>
